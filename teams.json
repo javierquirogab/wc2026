@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Catalogo de selecciones nacionales con colores de bandera en RGB para sistemas LED",
+    "last_update": "2026-01-01"
+  },
+  "teams": {
+    "COL": {
+      "name": "Colombia",
+      "confederation": "CONMEBOL",
+      "flag": [[255,205,0],[0,51,160],[206,17,38]]
+    },
+    "BRA": {
+      "name": "Brasil",
+      "confederation": "CONMEBOL",
+      "flag": [[0,156,59],[255,223,0],[0,39,118]]
+    },
+    "ARG": {
+      "name": "Argentina",
+      "confederation": "CONMEBOL",
+      "flag": [[116,172,223],[255,255,255],[116,172,223]]
+    },
+    "URU": {
+      "name": "Uruguay",
+      "confederation": "CONMEBOL",
+      "flag": [[255,255,255],[0,56,147],[255,206,0]]
+    },
+    "CHI": {
+      "name": "Chile",
+      "confederation": "CONMEBOL",
+      "flag": [[255,255,255],[0,57,166],[213,43,30]]
+    },
+    "PER": {
+      "name": "Perú",
+      "confederation": "CONMEBOL",
+      "flag": [[213,43,30],[255,255,255],[213,43,30]]
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "confederation": "CONMEBOL",
+      "flag": [[255,205,0],[0,56,168],[206,17,38]]
+    },
+
+    "USA": {
+      "name": "Estados Unidos",
+      "confederation": "CONCACAF",
+      "flag": [[60,59,110],[255,255,255],[178,34,52]]
+    },
+    "MEX": {
+      "name": "México",
+      "confederation": "CONCACAF",
+      "flag": [[0,104,71],[255,255,255],[206,17,38]]
+    },
+    "CAN": {
+      "name": "Canadá",
+      "confederation": "CONCACAF",
+      "flag": [[255,0,0],[255,255,255],[255,0,0]]
+    },
+    "CRC": {
+      "name": "Costa Rica",
+      "confederation": "CONCACAF",
+      "flag": [[0,32,91],[255,255,255],[206,17,38]]
+    },
+
+    "GER": {
+      "name": "Alemania",
+      "confederation": "UEFA",
+      "flag": [[0,0,0],[221,0,0],[255,206,0]]
+    },
+    "FRA": {
+      "name": "Francia",
+      "confederation": "UEFA",
+      "flag": [[0,85,164],[255,255,255],[239,65,53]]
+    },
+    "ESP": {
+      "name": "España",
+      "confederation": "UEFA",
+      "flag": [[198,0,43],[255,205,0],[198,0,43]]
+    },
+    "ENG": {
+      "name": "Inglaterra",
+      "confederation": "UEFA",
+      "flag": [[255,255,255],[206,17,38],[255,255,255]]
+    },
+    "ITA": {
+      "name": "Italia",
+      "confederation": "UEFA",
+      "flag": [[0,146,70],[255,255,255],[206,43,55]]
+    },
+    "POR": {
+      "name": "Portugal",
+      "confederation": "UEFA",
+      "flag": [[0,102,0],[255,0,0],[255,206,0]]
+    },
+    "NED": {
+      "name": "Países Bajos",
+      "confederation": "UEFA",
+      "flag": [[174,28,40],[255,255,255],[33,70,139]]
+    },
+    "CRO": {
+      "name": "Croacia",
+      "confederation": "UEFA",
+      "flag": [[255,0,0],[255,255,255],[23,70,159]]
+    },
+
+    "JPN": {
+      "name": "Japón",
+      "confederation": "AFC",
+      "flag": [[255,255,255],[188,0,45],[255,255,255]]
+    },
+    "KOR": {
+      "name": "Corea del Sur",
+      "confederation": "AFC",
+      "flag": [[255,255,255],[0,71,160],[206,17,38]]
+    },
+    "AUS": {
+      "name": "Australia",
+      "confederation": "AFC",
+      "flag": [[0,82,66],[255,215,0],[0,82,66]]
+    },
+
+    "MAR": {
+      "name": "Marruecos",
+      "confederation": "CAF",
+      "flag": [[206,17,38],[0,98,48],[206,17,38]]
+    },
+    "SEN": {
+      "name": "Senegal",
+      "confederation": "CAF",
+      "flag": [[0,133,62],[255,206,0],[206,17,38]]
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "confederation": "CAF",
+      "flag": [[0,135,81],[255,255,255],[0,135,81]]
+    },
+    "GHA": {
+      "name": "Ghana",
+      "confederation": "CAF",
+      "flag": [[206,17,38],[255,206,0],[0,107,63]]
+    },
+
+    "NZL": {
+      "name": "Nueva Zelanda",
+      "confederation": "OFC",
+      "flag": [[0,0,0],[255,255,255],[206,17,38]]
+    }
+  }
+}
