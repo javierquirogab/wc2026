@@ -1,64 +1,51 @@
 [
   {
-    "id": "K_COL_BRA",
-    "group": "K",
-    "phase": "group_stage",
-    "home": "COL",
-    "away": "BRA",
-    "enabled": true,
-    "placeholder": true,
-    "label": "Colombia vs Brasil",
-    "led": {
-      "sequence": [
+  "tournament": "FIFA World Cup 2026",
+  "status": "structure_real_matches_tentative_until_official_draw",
+  "groups": {
+    "K": [
+      "COL",
+      "BRA",
+      "POR",
+      "UZB"
+    ],
+    "L": [
+      "ARG",
+      "USA",
+      "MEX",
+      "ESP"
+    ]
+  },
+  "teams": {
+    "COL": {
+      "name": "Colombia",
+      "tz": "America/Bogota",
+      "flag": [
         [
           255,
-          205,
+          221,
           0
         ],
         [
           0,
-          51,
-          160
+          56,
+          168
         ],
         [
           206,
           17,
           38
-        ],
+        ]
+      ]
+    },
+    "BRA": {
+      "name": "Brazil",
+      "tz": "America/Sao_Paulo",
+      "flag": [
         [
           0,
-          156,
-          59
-        ],
-        [
-          255,
-          223,
-          0
-        ],
-        [
-          0,
-          39,
-          118
-        ],
-        [
-          255,
-          205,
-          0
-        ],
-        [
-          0,
-          51,
-          160
-        ],
-        [
-          206,
-          17,
-          38
-        ],
-        [
-          0,
-          156,
-          59
+          155,
+          58
         ],
         [
           255,
@@ -70,36 +57,12 @@
           39,
           118
         ]
-      ],
-      "speed": 250
-    }
-  },
-  {
-    "id": "K_COL_ARG",
-    "group": "K",
-    "phase": "group_stage",
-    "home": "COL",
-    "away": "ARG",
-    "enabled": true,
-    "placeholder": true,
-    "label": "Colombia vs Argentina",
-    "led": {
-      "sequence": [
-        [
-          255,
-          205,
-          0
-        ],
-        [
-          0,
-          51,
-          160
-        ],
-        [
-          206,
-          17,
-          38
-        ],
+      ]
+    },
+    "ARG": {
+      "name": "Argentina",
+      "tz": "America/Argentina/Buenos_Aires",
+      "flag": [
         [
           116,
           172,
@@ -111,80 +74,16 @@
           255
         ],
         [
-          116,
-          172,
-          223
-        ],
-        [
           255,
-          205,
+          200,
           0
-        ],
-        [
-          0,
-          51,
-          160
-        ],
-        [
-          206,
-          17,
-          38
-        ],
-        [
-          116,
-          172,
-          223
-        ],
-        [
-          255,
-          255,
-          255
-        ],
-        [
-          116,
-          172,
-          223
         ]
-      ],
-      "speed": 250
-    }
-  },
-  {
-    "id": "K_COL_USA",
-    "group": "K",
-    "phase": "group_stage",
-    "home": "COL",
-    "away": "USA",
-    "enabled": true,
-    "placeholder": true,
-    "label": "Colombia vs Estados Unidos",
-    "led": {
-      "sequence": [
-        [
-          255,
-          205,
-          0
-        ],
-        [
-          0,
-          51,
-          160
-        ],
-        [
-          206,
-          17,
-          38
-        ],
-        [
-          60,
-          59,
-          110
-        ],
-        [
-          255,
-          255,
-          255
-        ],
+      ]
+    },
+    "USA": {
+      "name": "United States",
+      "tz": "America/New_York",
+      "flag": [
         [
           178,
           34,
@@ -192,23 +91,24 @@
         ],
         [
           255,
-          205,
-          0
-        ],
-        [
-          0,
-          51,
-          160
-        ],
-        [
-          206,
-          17,
-          38
+          255,
+          255
         ],
         [
           60,
           59,
           110
+        ]
+      ]
+    },
+    "MEX": {
+      "name": "Mexico",
+      "tz": "America/Mexico_City",
+      "flag": [
+        [
+          0,
+          104,
+          71
         ],
         [
           255,
@@ -216,25 +116,32 @@
           255
         ],
         [
-          178,
-          34,
-          52
+          206,
+          17,
+          38
         ]
-      ],
-      "speed": 250
-    }
-  },
-  {
-    "id": "B_GER_ESP",
-    "group": "B",
-    "phase": "group_stage",
-    "home": "GER",
-    "away": "ESP",
-    "enabled": true,
-    "placeholder": true,
-    "label": "Alemania vs España",
-    "led": {
-      "sequence": [
+      ]
+    },
+    "ESP": {
+      "name": "Spain",
+      "tz": "Europe/Madrid",
+      "flag": [
+        [
+          198,
+          0,
+          0
+        ],
+        [
+          255,
+          205,
+          0
+        ]
+      ]
+    },
+    "GER": {
+      "name": "Germany",
+      "tz": "Europe/Berlin",
+      "flag": [
         [
           0,
           0,
@@ -249,54 +156,675 @@
           255,
           206,
           0
-        ],
-        [
-          198,
-          0,
-          43
-        ],
-        [
-          255,
-          205,
-          0
-        ],
-        [
-          198,
-          0,
-          43
-        ],
-        [
-          0,
-          0,
-          0
-        ],
-        [
-          221,
-          0,
-          0
-        ],
-        [
-          255,
-          206,
-          0
-        ],
-        [
-          198,
-          0,
-          43
-        ],
-        [
-          255,
-          205,
-          0
-        ],
-        [
-          198,
-          0,
-          43
         ]
-      ],
-      "speed": 250
+      ]
+    },
+    "FRA": {
+      "name": "France",
+      "tz": "Europe/Paris",
+      "flag": [
+        [
+          0,
+          85,
+          164
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          239,
+          65,
+          53
+        ]
+      ]
+    },
+    "POR": {
+      "name": "Portugal",
+      "tz": "Europe/Lisbon",
+      "flag": [
+        [
+          0,
+          102,
+          0
+        ],
+        [
+          255,
+          0,
+          0
+        ]
+      ]
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "tz": "Asia/Tashkent",
+      "flag": [
+        [
+          0,
+          159,
+          218
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          0,
+          153,
+          68
+        ]
+      ]
     }
-  }
+  },
+  "matches": [
+    {
+      "id": "K_COL_BRA",
+      "group": "K",
+      "phase": "group_stage",
+      "home": "COL",
+      "away": "BRA",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Colombia vs Brazil",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-11T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-11T13:00:00",
+      "datetimeAwayLocal": "2026-06-11T15:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              255,
+              221,
+              0
+            ],
+            [
+              0,
+              56,
+              168
+            ],
+            [
+              206,
+              17,
+              38
+            ]
+          ],
+          [
+            [
+              0,
+              155,
+              58
+            ],
+            [
+              255,
+              223,
+              0
+            ],
+            [
+              0,
+              39,
+              118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "K_COL_POR",
+      "group": "K",
+      "phase": "group_stage",
+      "home": "COL",
+      "away": "POR",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Colombia vs Portugal",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-12T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-12T13:00:00",
+      "datetimeAwayLocal": "2026-06-12T19:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              255,
+              221,
+              0
+            ],
+            [
+              0,
+              56,
+              168
+            ],
+            [
+              206,
+              17,
+              38
+            ]
+          ],
+          [
+            [
+              0,
+              102,
+              0
+            ],
+            [
+              255,
+              0,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "K_COL_UZB",
+      "group": "K",
+      "phase": "group_stage",
+      "home": "COL",
+      "away": "UZB",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Colombia vs Uzbekistan",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-13T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-13T13:00:00",
+      "datetimeAwayLocal": "2026-06-13T23:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              255,
+              221,
+              0
+            ],
+            [
+              0,
+              56,
+              168
+            ],
+            [
+              206,
+              17,
+              38
+            ]
+          ],
+          [
+            [
+              0,
+              159,
+              218
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              0,
+              153,
+              68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "K_BRA_POR",
+      "group": "K",
+      "phase": "group_stage",
+      "home": "BRA",
+      "away": "POR",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Brazil vs Portugal",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-14T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-14T15:00:00",
+      "datetimeAwayLocal": "2026-06-14T19:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              0,
+              155,
+              58
+            ],
+            [
+              255,
+              223,
+              0
+            ],
+            [
+              0,
+              39,
+              118
+            ]
+          ],
+          [
+            [
+              0,
+              102,
+              0
+            ],
+            [
+              255,
+              0,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "K_BRA_UZB",
+      "group": "K",
+      "phase": "group_stage",
+      "home": "BRA",
+      "away": "UZB",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Brazil vs Uzbekistan",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-15T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-15T15:00:00",
+      "datetimeAwayLocal": "2026-06-15T23:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              0,
+              155,
+              58
+            ],
+            [
+              255,
+              223,
+              0
+            ],
+            [
+              0,
+              39,
+              118
+            ]
+          ],
+          [
+            [
+              0,
+              159,
+              218
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              0,
+              153,
+              68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "K_POR_UZB",
+      "group": "K",
+      "phase": "group_stage",
+      "home": "POR",
+      "away": "UZB",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Portugal vs Uzbekistan",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-16T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-16T19:00:00",
+      "datetimeAwayLocal": "2026-06-16T23:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              0,
+              102,
+              0
+            ],
+            [
+              255,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              159,
+              218
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              0,
+              153,
+              68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L_ARG_USA",
+      "group": "L",
+      "phase": "group_stage",
+      "home": "ARG",
+      "away": "USA",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Argentina vs United States",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-17T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-17T15:00:00",
+      "datetimeAwayLocal": "2026-06-17T14:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              116,
+              172,
+              223
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              255,
+              200,
+              0
+            ]
+          ],
+          [
+            [
+              178,
+              34,
+              52
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              60,
+              59,
+              110
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L_ARG_MEX",
+      "group": "L",
+      "phase": "group_stage",
+      "home": "ARG",
+      "away": "MEX",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Argentina vs Mexico",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-18T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-18T15:00:00",
+      "datetimeAwayLocal": "2026-06-18T12:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              116,
+              172,
+              223
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              255,
+              200,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              104,
+              71
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              206,
+              17,
+              38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L_ARG_ESP",
+      "group": "L",
+      "phase": "group_stage",
+      "home": "ARG",
+      "away": "ESP",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Argentina vs Spain",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-19T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-19T15:00:00",
+      "datetimeAwayLocal": "2026-06-19T20:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              116,
+              172,
+              223
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              255,
+              200,
+              0
+            ]
+          ],
+          [
+            [
+              198,
+              0,
+              0
+            ],
+            [
+              255,
+              205,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L_USA_MEX",
+      "group": "L",
+      "phase": "group_stage",
+      "home": "USA",
+      "away": "MEX",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "United States vs Mexico",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-20T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-20T14:00:00",
+      "datetimeAwayLocal": "2026-06-20T12:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              178,
+              34,
+              52
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              60,
+              59,
+              110
+            ]
+          ],
+          [
+            [
+              0,
+              104,
+              71
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              206,
+              17,
+              38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L_USA_ESP",
+      "group": "L",
+      "phase": "group_stage",
+      "home": "USA",
+      "away": "ESP",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "United States vs Spain",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-21T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-21T14:00:00",
+      "datetimeAwayLocal": "2026-06-21T20:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              178,
+              34,
+              52
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              60,
+              59,
+              110
+            ]
+          ],
+          [
+            [
+              198,
+              0,
+              0
+            ],
+            [
+              255,
+              205,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "L_MEX_ESP",
+      "group": "L",
+      "phase": "group_stage",
+      "home": "MEX",
+      "away": "ESP",
+      "enabled": true,
+      "placeholder": true,
+      "status": "tentative_match",
+      "label": "Mexico vs Spain",
+      "stadium": "TBD - Host City USA/MEX/CAN",
+      "datetimeUTC": "2026-06-22T18:00:00Z",
+      "datetimeHomeLocal": "2026-06-22T12:00:00",
+      "datetimeAwayLocal": "2026-06-22T20:00:00",
+      "led": {
+        "sequence": [
+          [
+            [
+              0,
+              104,
+              71
+            ],
+            [
+              255,
+              255,
+              255
+            ],
+            [
+              206,
+              17,
+              38
+            ]
+          ],
+          [
+            [
+              198,
+              0,
+              0
+            ],
+            [
+              255,
+              205,
+              0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
 ]
