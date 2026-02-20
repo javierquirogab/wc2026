@@ -3,16 +3,16 @@
   "status": "corrected_flat_sequence_structure",
   "groups": {
     "K": [
-      "COL",
-      "BRA",
-      "POR",
-      "UZB"
+      ["COL"],
+      ["BRA"],
+      ["POR"],
+      ["UZB"]
     ],
     "L": [
-      "ARG",
-      "USA",
-      "MEX",
-      "ESP"
+      ["ARG"],
+      ["USA"],
+      ["MEX"],
+      ["ESP"]
     ]
   },
   "teams": {
@@ -735,4 +735,5 @@
       }
     }
   ]
+
 }
