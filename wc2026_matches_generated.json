@@ -1,20 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
   "status": "corrected_flat_sequence_structure",
-  "groups": {
-    "K": [
-      ["COL"],
-      ["BRA"],
-      ["POR"],
-      ["UZB"]
-    ],
-    "L": [
-      ["ARG"],
-      ["USA"],
-      ["MEX"],
-      ["ESP"]
-    ]
-  },
   "teams": {
     "COL": {
       "name": "Colombia",
@@ -737,3 +723,4 @@
   ]
 
 }
+
